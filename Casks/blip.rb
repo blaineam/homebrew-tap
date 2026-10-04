@@ -7,7 +7,7 @@ cask "blip" do
   desc "Featherlight macOS menu bar system monitor"
   homepage "https://blip.wemiller.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Blip.app"
