@@ -4,11 +4,11 @@ cask "blip" do
 
   url "https://github.com/blaineam/Blip/releases/download/v#{version}/Blip.dmg"
   name "Blip"
-  desc "Featherlight macOS menu bar system monitor"
-  homepage "https://blip.wemiller.com"
+  desc "Featherlight menu bar system monitor"
+  homepage "https://blip.wemiller.com/"
 
-  depends_on macos: :sonoma
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "Blip.app"
 

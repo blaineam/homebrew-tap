@@ -5,10 +5,10 @@ cask "blip-helper" do
   url "https://github.com/blaineam/Blip/releases/download/v#{version}/BlipHelper.dmg"
   name "Blip Helper"
   desc "Companion helper for the App Store version of Blip"
-  homepage "https://blip.wemiller.com"
+  homepage "https://blip.wemiller.com/"
 
-  depends_on macos: :sonoma
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "Blip Helper.app"
 
