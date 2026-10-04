@@ -4,7 +4,7 @@ cask "blip-helper" do
 
   url "https://github.com/blaineam/Blip/releases/download/v#{version}/BlipHelper.dmg"
   name "Blip Helper"
-  desc "Companion helper that unlocks Blip's fan, temperature, GPU and disk I/O stats"
+  desc "Companion helper for the App Store version of Blip"
   homepage "https://blip.wemiller.com"
 
   depends_on macos: :sonoma
