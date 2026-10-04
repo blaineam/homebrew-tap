@@ -16,4 +16,10 @@ cask "blip" do
     "~/Library/Preferences/com.blainemiller.Blip.plist",
     "~/Library/Saved Application State/com.blainemiller.Blip.savedState",
   ]
+
+  caveats <<~EOS
+    Fan speeds, temperatures, GPU utilization, disk I/O and top processes need
+    the free companion helper:
+      brew install --cask blaineam/tap/blip-helper
+  EOS
 end
