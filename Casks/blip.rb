@@ -16,5 +16,4 @@ cask "blip" do
     "~/Library/Preferences/com.blainemiller.Blip.plist",
     "~/Library/Saved Application State/com.blainemiller.Blip.savedState",
   ]
-
 end
