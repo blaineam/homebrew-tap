@@ -1,6 +1,6 @@
 cask "blip" do
-  version "2.0.6"
-  sha256 "2d3bb4bcca8385698797ea14b477d01bd957fdea6498175b83f647bc090e8b5e"
+  version "2.0.7"
+  sha256 "66323fa0d9fb267cb14c092209fc70361579815129bddd2c1eb83d8a484a53f1"
 
   url "https://github.com/blaineam/Blip/releases/download/v#{version}/Blip.dmg"
   name "Blip"
