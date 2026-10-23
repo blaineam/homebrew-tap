@@ -1,6 +1,6 @@
 cask "blip-helper" do
-  version "2.0.7"
-  sha256 "3af079316a931580837deff11c9e0d0fae95ab5ef4661a87e3b9b98bf49eb1c4"
+  version "2.0.9"
+  sha256 "f6075b02834d2c3f68b46db4f12c93d848f1af07a2caad073c08f54461a24ac8"
 
   url "https://github.com/blaineam/Blip/releases/download/v#{version}/BlipHelper.dmg"
   name "Blip Helper"
